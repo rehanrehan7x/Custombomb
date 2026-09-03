@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yt-thumbnail-downloader.com/sitemap.xml
+Sitemap: https://yt-thumbnails-downloader-q36x.onrender.com/sitemap.xml
