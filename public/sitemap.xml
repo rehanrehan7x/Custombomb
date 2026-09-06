@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://thumbgrab.sbs/</loc></url>
-  <url><loc>https:https://thumbgrab.sbs/youtube-thumbnail-downloader.html</loc></url>
-  <url><loc>https:https://thumbgrab.sbs/how-to-download-youtube-thumbnail.html</loc></url>
-  <url><loc>https:https://thumbgrab.sbs/youtube-thumbnail-size.html</loc></url>
-  <url><loc>https:https://thumbgrab.sbs/thumbnail-size-checker.html</loc></url>
-  <url><loc>https:https://thumbgrab.sbs/faq.html</loc></url>
-  <url><loc>https:https://thumbgrab.sbs/about.html</loc></url>
-  <url><loc>https://thumbgrab.sbs/privacy.html</loc></url>
-  <url><loc>https://thumbgrab.sbs/terms.html</loc></url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/youtube-thumbnail-downloader.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/how-to-download-youtube-thumbnail.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/youtube-thumbnail-size.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/thumbnail-size-checker.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/faq.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thumbgrab.sbs/terms.html</loc>
+  </url>
+
 </urlset>
