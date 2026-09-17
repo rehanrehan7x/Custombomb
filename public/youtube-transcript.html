@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YouTube Transcript Generator – Get Video Transcript | ThumbGrab</title>
+<meta name="description" content="Get a readable transcript from a public YouTube video. Choose available caption languages, translate captions, copy the transcript, and jump between timestamps with ThumbGrab.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://thumbgrab.sbs/youtube-transcript.html">
+<meta property="og:title" content="YouTube Transcript Generator | ThumbGrab">
+<meta property="og:description" content="Generate and read YouTube transcripts from public captions with timestamps and language options.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://thumbgrab.sbs/youtube-transcript.html">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="/"><img class="brand-logo" src="/logo.png" alt="ThumbGrab Logo"><span>ThumbGrab</span></a>
+<nav><a href="/">Downloader</a><a href="/youtube-thumbnail-downloader.html">Guide</a><a href="/youtube-thumbnail-size.html">Sizes</a><a href="/thumbnail-size-checker.html">Size Checker</a><a href="/articles.html">Blog</a><a href="/youtube-transcript.html">Transcript</a><a href="/faq.html">FAQ</a><button id="themeToggle" class="theme-toggle" type="button">◐ Theme</button></nav></header>
+
+<main class="wrap transcript-page">
+<section class="transcript-hero">
+<span class="eyebrow">FREE • PUBLIC CAPTIONS • MULTI-LANGUAGE</span>
+<h1>YouTube Transcript Generator</h1>
+<p class="lead">Paste a YouTube video URL and read its available transcript with timestamps. Switch caption languages, copy the text, and jump to a specific part of the video.</p>
+<div class="transcript-tool">
+<div class="input-row"><input id="transcriptUrl" type="url" autocomplete="off" placeholder="Paste YouTube URL here..."><button id="transcriptBtn">Get Transcript</button></div>
+<div class="hint">Works with standard YouTube videos, youtu.be links, Shorts, live links and public videos with captions.</div>
+<div id="transcriptStatus" class="status"></div>
+</div>
+</section>
+
+<section id="transcriptResult" class="transcript-result hidden">
+<div class="transcript-video-card">
+<div class="video-wrap"><iframe id="videoFrame" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-info"><h2 id="transcriptTitle">YouTube Video</h2><p id="transcriptAuthor" class="muted"></p></div>
+</div>
+
+<div class="transcript-toolbar">
+<div class="transcript-select"><label for="languageSelect">Transcript language</label><select id="languageSelect"></select></div>
+<button id="copyTranscript" class="secondary-btn" type="button">Copy Transcript</button>
+<button id="timestampToggle" class="secondary-btn" type="button">Timestamps: ON</button>
+</div>
+
+<div class="transcript-layout">
+<section class="transcript-card">
+<div class="transcript-card-head"><div><span class="eyebrow">TRANSCRIPT</span><strong id="segmentStats">0 segments</strong></div><span id="currentLanguage" class="muted"></span></div>
+<div id="segments" class="segments"></div>
+</section>
+<aside class="transcript-side">
+<div class="side-card"><h3>About this transcript</h3><p>ThumbGrab reads caption tracks made available by YouTube. If a video has no public captions, a transcript cannot be generated.</p></div>
+<div class="side-card"><h3>Quick actions</h3><button id="copyPlain" class="wide-btn" type="button">Copy without timestamps</button></div>
+</aside>
+</div>
+</section>
+
+<section class="section transcript-info">
+<h2>How to Get a YouTube Transcript</h2>
+<div class="steps">
+<div class="step"><strong>1</strong><h3>Paste the video URL</h3><p>Copy a public YouTube video link and paste it above.</p></div>
+<div class="step"><strong>2</strong><h3>Get available captions</h3><p>ThumbGrab checks the caption tracks provided with the video.</p></div>
+<div class="step"><strong>3</strong><h3>Choose a language</h3><p>If multiple caption languages are available, select the one you want to read.</p></div>
+</div>
+</section>
+
+<section class="section transcript-info">
+<h2>What You Can Do With a YouTube Transcript</h2>
+<div class="feature-grid">
+<div class="feature"><h3>Read with timestamps</h3><p>Each transcript segment can show its video timestamp, making it easier to find a specific moment.</p></div>
+<div class="feature"><h3>Copy in one click</h3><p>Copy the complete transcript for notes, research, study or content planning.</p></div>
+<div class="feature"><h3>Multiple languages</h3><p>Use the caption languages available for the video. Where YouTube provides translated caption tracks, those can be selected too.</p></div>
+</div>
+</section>
+</main>
+<footer class="footer"><span>© 2026 ThumbGrab</span><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></footer>
+<script src="/theme.js"></script><script src="/transcript.js"></script>
+</body></html>
