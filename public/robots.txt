@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://thumbgrab.sbs/sitemap.xml
